@@ -59,7 +59,6 @@ public class Interfaz extends javax.swing.JFrame {
         winsAV = new javax.swing.JLabel();
         winsCounterUS = new javax.swing.JLabel();
         winsCounterAV = new javax.swing.JLabel();
-        lblColaUS10 = new javax.swing.JLabel();
         titleAV1 = new javax.swing.JLabel();
         titleAV2 = new javax.swing.JLabel();
         titleAV3 = new javax.swing.JLabel();
@@ -76,12 +75,12 @@ public class Interfaz extends javax.swing.JFrame {
         valueAgilityUS = new javax.swing.JLabel();
         valueStrenghUS = new javax.swing.JLabel();
         valueAgilityAV = new javax.swing.JLabel();
-        fondo = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        taZE1.setBackground(new java.awt.Color(0, 51, 51));
+        taZE1.setBackground(new java.awt.Color(255, 153, 0));
         taZE1.setColumns(20);
         taZE1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         taZE1.setForeground(new java.awt.Color(255, 255, 255));
@@ -91,9 +90,9 @@ public class Interfaz extends javax.swing.JFrame {
         taZE1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         spAV1.setViewportView(taZE1);
 
-        getContentPane().add(spAV1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, 150, -1));
+        getContentPane().add(spAV1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, 150, -1));
 
-        taZE2.setBackground(new java.awt.Color(0, 51, 51));
+        taZE2.setBackground(new java.awt.Color(255, 153, 0));
         taZE2.setColumns(20);
         taZE2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         taZE2.setForeground(new java.awt.Color(255, 255, 255));
@@ -103,9 +102,9 @@ public class Interfaz extends javax.swing.JFrame {
         taZE2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         spAV2.setViewportView(taZE2);
 
-        getContentPane().add(spAV2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 150, -1));
+        getContentPane().add(spAV2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 150, -1));
 
-        taZE3.setBackground(new java.awt.Color(0, 51, 51));
+        taZE3.setBackground(new java.awt.Color(255, 153, 0));
         taZE3.setColumns(20);
         taZE3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         taZE3.setForeground(new java.awt.Color(255, 255, 255));
@@ -115,9 +114,9 @@ public class Interfaz extends javax.swing.JFrame {
         taZE3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         spAV3.setViewportView(taZE3);
 
-        getContentPane().add(spAV3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, 150, -1));
+        getContentPane().add(spAV3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 430, 150, -1));
 
-        taZE4.setBackground(new java.awt.Color(0, 51, 51));
+        taZE4.setBackground(new java.awt.Color(255, 153, 0));
         taZE4.setColumns(20);
         taZE4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         taZE4.setForeground(new java.awt.Color(255, 255, 255));
@@ -127,9 +126,9 @@ public class Interfaz extends javax.swing.JFrame {
         taZE4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         spAV4.setViewportView(taZE4);
 
-        getContentPane().add(spAV4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 470, 150, -1));
+        getContentPane().add(spAV4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 550, 150, -1));
 
-        taSF1.setBackground(new java.awt.Color(0, 51, 51));
+        taSF1.setBackground(new java.awt.Color(0, 153, 255));
         taSF1.setColumns(20);
         taSF1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         taSF1.setForeground(new java.awt.Color(255, 255, 255));
@@ -139,9 +138,9 @@ public class Interfaz extends javax.swing.JFrame {
         taSF1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         spUS1.setViewportView(taSF1);
 
-        getContentPane().add(spUS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 140, 150, -1));
+        getContentPane().add(spUS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 210, 150, -1));
 
-        taSF2.setBackground(new java.awt.Color(0, 51, 51));
+        taSF2.setBackground(new java.awt.Color(0, 153, 255));
         taSF2.setColumns(20);
         taSF2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         taSF2.setForeground(new java.awt.Color(255, 255, 255));
@@ -151,9 +150,9 @@ public class Interfaz extends javax.swing.JFrame {
         taSF2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         spUS2.setViewportView(taSF2);
 
-        getContentPane().add(spUS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 250, 150, -1));
+        getContentPane().add(spUS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 320, 150, -1));
 
-        taSF3.setBackground(new java.awt.Color(0, 51, 51));
+        taSF3.setBackground(new java.awt.Color(0, 153, 255));
         taSF3.setColumns(20);
         taSF3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         taSF3.setForeground(new java.awt.Color(255, 255, 255));
@@ -163,9 +162,9 @@ public class Interfaz extends javax.swing.JFrame {
         taSF3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         spUS3.setViewportView(taSF3);
 
-        getContentPane().add(spUS3, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 360, 150, -1));
+        getContentPane().add(spUS3, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 440, 150, -1));
 
-        taSF4.setBackground(new java.awt.Color(0, 51, 51));
+        taSF4.setBackground(new java.awt.Color(0, 153, 255));
         taSF4.setColumns(20);
         taSF4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         taSF4.setForeground(new java.awt.Color(255, 255, 255));
@@ -175,7 +174,7 @@ public class Interfaz extends javax.swing.JFrame {
         taSF4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         spUS4.setViewportView(taSF4);
 
-        getContentPane().add(spUS4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 460, 150, -1));
+        getContentPane().add(spUS4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 560, 150, -1));
 
         lblColaUS5.setBackground(new java.awt.Color(0, 0, 0));
         lblColaUS5.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -183,7 +182,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblColaUS5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblColaUS5.setText("Cola 1");
         lblColaUS5.setOpaque(true);
-        getContentPane().add(lblColaUS5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 170, 50, -1));
+        getContentPane().add(lblColaUS5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 50, -1));
 
         lblColaUS6.setBackground(new java.awt.Color(0, 0, 0));
         lblColaUS6.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -191,7 +190,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblColaUS6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblColaUS6.setText("Cola 2");
         lblColaUS6.setOpaque(true);
-        getContentPane().add(lblColaUS6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 50, -1));
+        getContentPane().add(lblColaUS6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 50, -1));
 
         lblColaUS7.setBackground(new java.awt.Color(0, 0, 0));
         lblColaUS7.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -199,7 +198,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblColaUS7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblColaUS7.setText("Cola 3");
         lblColaUS7.setOpaque(true);
-        getContentPane().add(lblColaUS7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 390, 50, -1));
+        getContentPane().add(lblColaUS7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, 50, -1));
 
         lblColaUS8.setBackground(new java.awt.Color(0, 0, 0));
         lblColaUS8.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -207,7 +206,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblColaUS8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblColaUS8.setText("Refuerzo");
         lblColaUS8.setOpaque(true);
-        getContentPane().add(lblColaUS8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 500, 50, -1));
+        getContentPane().add(lblColaUS8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 530, 50, -1));
 
         lblColaUS4.setBackground(new java.awt.Color(0, 0, 0));
         lblColaUS4.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -215,7 +214,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblColaUS4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblColaUS4.setText("Refuerzo");
         lblColaUS4.setOpaque(true);
-        getContentPane().add(lblColaUS4, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 50, -1));
+        getContentPane().add(lblColaUS4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 540, 50, -1));
 
         lblColaUS3.setBackground(new java.awt.Color(0, 0, 0));
         lblColaUS3.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -223,7 +222,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblColaUS3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblColaUS3.setText("Cola 3");
         lblColaUS3.setOpaque(true);
-        getContentPane().add(lblColaUS3, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 390, 50, -1));
+        getContentPane().add(lblColaUS3, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 420, 50, -1));
 
         lblColaUS2.setBackground(new java.awt.Color(0, 0, 0));
         lblColaUS2.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -231,7 +230,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblColaUS2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblColaUS2.setText("Cola 2");
         lblColaUS2.setOpaque(true);
-        getContentPane().add(lblColaUS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 280, 50, -1));
+        getContentPane().add(lblColaUS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 300, 50, -1));
 
         lblColaUS1.setBackground(new java.awt.Color(0, 0, 0));
         lblColaUS1.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -239,40 +238,40 @@ public class Interfaz extends javax.swing.JFrame {
         lblColaUS1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblColaUS1.setText("Cola 1");
         lblColaUS1.setOpaque(true);
-        getContentPane().add(lblColaUS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 170, 50, -1));
+        getContentPane().add(lblColaUS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 190, 50, -1));
 
-        lblTitle1.setBackground(new java.awt.Color(0, 153, 153));
+        lblTitle1.setBackground(new java.awt.Color(0, 102, 102));
         lblTitle1.setFont(new java.awt.Font("Segoe UI", 2, 14)); // NOI18N
         lblTitle1.setForeground(new java.awt.Color(255, 255, 255));
         lblTitle1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle1.setText("Avatar vs Un Show Mas");
         lblTitle1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblTitle1.setOpaque(true);
-        getContentPane().add(lblTitle1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 100, 180, -1));
+        getContentPane().add(lblTitle1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 90, 180, -1));
 
-        lblTitle.setBackground(new java.awt.Color(0, 153, 153));
+        lblTitle.setBackground(new java.awt.Color(0, 102, 102));
         lblTitle.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         lblTitle.setForeground(new java.awt.Color(255, 255, 255));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Battle Royale");
         lblTitle.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblTitle.setOpaque(true);
-        getContentPane().add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 50, 230, 50));
+        getContentPane().add(lblTitle, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 30, 230, 50));
 
-        lblGanador.setBackground(new java.awt.Color(255, 153, 0));
+        lblGanador.setBackground(new java.awt.Color(255, 51, 51));
         lblGanador.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         lblGanador.setForeground(new java.awt.Color(0, 0, 51));
         lblGanador.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblGanador.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblGanador.setOpaque(true);
-        getContentPane().add(lblGanador, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 190, 210, 40));
+        getContentPane().add(lblGanador, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 190, 210, 40));
 
         lblResultado.setBackground(new java.awt.Color(255, 204, 51));
         lblResultado.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
         lblResultado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblResultado.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblResultado.setOpaque(true);
-        getContentPane().add(lblResultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, 210, 30));
+        getContentPane().add(lblResultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 160, 210, 30));
 
         lblState.setBackground(new java.awt.Color(0, 102, 102));
         lblState.setFont(new java.awt.Font("Segoe UI", 2, 14)); // NOI18N
@@ -280,7 +279,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblState.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblState.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblState.setOpaque(true);
-        getContentPane().add(lblState, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 140, 210, 20));
+        getContentPane().add(lblState, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 140, 210, 20));
 
         lblVs.setBackground(new java.awt.Color(0, 102, 102));
         lblVs.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
@@ -289,7 +288,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblVs.setText("vs");
         lblVs.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblVs.setOpaque(true);
-        getContentPane().add(lblVs, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 340, 40, 20));
+        getContentPane().add(lblVs, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 360, 40, 20));
 
         lblSelectedUS.setBackground(new java.awt.Color(0, 102, 102));
         lblSelectedUS.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
@@ -297,7 +296,7 @@ public class Interfaz extends javax.swing.JFrame {
         lblSelectedUS.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblSelectedUS.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblSelectedUS.setOpaque(true);
-        getContentPane().add(lblSelectedUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 380, 130, 50));
+        getContentPane().add(lblSelectedUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 400, 130, 50));
 
         lblSelectedAV.setBackground(new java.awt.Color(0, 102, 102));
         lblSelectedAV.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
@@ -305,9 +304,9 @@ public class Interfaz extends javax.swing.JFrame {
         lblSelectedAV.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblSelectedAV.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblSelectedAV.setOpaque(true);
-        getContentPane().add(lblSelectedAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 250, 130, 50));
+        getContentPane().add(lblSelectedAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 250, 130, 50));
 
-        jSlider1.setBackground(new java.awt.Color(0, 153, 153));
+        jSlider1.setBackground(new java.awt.Color(0, 102, 102));
         jSlider1.setMaximum(15);
         jSlider1.setMinimum(5);
         jSlider1.setMinorTickSpacing(1);
@@ -324,43 +323,43 @@ public class Interfaz extends javax.swing.JFrame {
                 jSlider1StateChanged(evt);
             }
         });
-        getContentPane().add(jSlider1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 490, -1, 30));
+        getContentPane().add(jSlider1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 530, -1, 30));
 
-        lblSliderValue.setBackground(new java.awt.Color(0, 153, 153));
+        lblSliderValue.setBackground(new java.awt.Color(0, 102, 102));
         lblSliderValue.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblSliderValue.setForeground(new java.awt.Color(255, 255, 255));
         lblSliderValue.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblSliderValue.setText("10");
         lblSliderValue.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 51, 51)));
         lblSliderValue.setOpaque(true);
-        getContentPane().add(lblSliderValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 520, 200, 20));
+        getContentPane().add(lblSliderValue, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 560, 200, 20));
 
-        titleUS.setBackground(new java.awt.Color(0, 51, 102));
+        titleUS.setBackground(new java.awt.Color(0, 153, 255));
         titleUS.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleUS.setForeground(new java.awt.Color(255, 255, 204));
         titleUS.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleUS.setText("Un Show");
         titleUS.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleUS.setOpaque(true);
-        getContentPane().add(titleUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 100, 70, 20));
+        getContentPane().add(titleUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 100, 70, 20));
 
-        titleUS1.setBackground(new java.awt.Color(0, 51, 102));
+        titleUS1.setBackground(new java.awt.Color(0, 153, 255));
         titleUS1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleUS1.setForeground(new java.awt.Color(255, 255, 204));
         titleUS1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleUS1.setText("Mas");
         titleUS1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleUS1.setOpaque(true);
-        getContentPane().add(titleUS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 120, 70, 20));
+        getContentPane().add(titleUS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 120, 70, 20));
 
-        titleAV.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV.setBackground(new java.awt.Color(255, 153, 0));
         titleAV.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV.setForeground(new java.awt.Color(255, 255, 204));
         titleAV.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        titleAV.setText("STRENGH");
+        titleAV.setText("STRENGTH");
         titleAV.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV.setOpaque(true);
-        getContentPane().add(titleAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 310, 60, 20));
+        getContentPane().add(titleAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 320, -1, 20));
 
         winsUS.setBackground(new java.awt.Color(255, 204, 0));
         winsUS.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -368,7 +367,7 @@ public class Interfaz extends javax.swing.JFrame {
         winsUS.setText("WINS");
         winsUS.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(255, 102, 0), new java.awt.Color(255, 153, 51), new java.awt.Color(255, 204, 0), new java.awt.Color(255, 204, 51)));
         winsUS.setOpaque(true);
-        getContentPane().add(winsUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 100, 40, -1));
+        getContentPane().add(winsUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 100, 40, -1));
 
         winsAV.setBackground(new java.awt.Color(255, 204, 0));
         winsAV.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
@@ -376,128 +375,128 @@ public class Interfaz extends javax.swing.JFrame {
         winsAV.setText("WINS");
         winsAV.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(255, 102, 0), new java.awt.Color(255, 153, 51), new java.awt.Color(255, 204, 0), new java.awt.Color(255, 204, 51)));
         winsAV.setOpaque(true);
-        getContentPane().add(winsAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 100, 40, -1));
+        getContentPane().add(winsAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 110, 40, -1));
 
         winsCounterUS.setBackground(new java.awt.Color(255, 204, 0));
         winsCounterUS.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         winsCounterUS.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         winsCounterUS.setText("0");
         winsCounterUS.setOpaque(true);
-        getContentPane().add(winsCounterUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 120, 40, 20));
+        getContentPane().add(winsCounterUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 120, 40, 20));
 
         winsCounterAV.setBackground(new java.awt.Color(255, 204, 0));
         winsCounterAV.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         winsCounterAV.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         winsCounterAV.setText("0");
         winsCounterAV.setOpaque(true);
-        getContentPane().add(winsCounterAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 120, 40, 20));
+        getContentPane().add(winsCounterAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 130, 40, 20));
 
-        lblColaUS10.setBackground(new java.awt.Color(0, 0, 0));
-        lblColaUS10.setFont(new java.awt.Font("Segoe UI", 1, 10)); // NOI18N
-        lblColaUS10.setForeground(new java.awt.Color(255, 255, 255));
-        lblColaUS10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblColaUS10.setText("Cola 2");
-        lblColaUS10.setOpaque(true);
-        getContentPane().add(lblColaUS10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 50, -1));
-
-        titleAV1.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV1.setBackground(new java.awt.Color(255, 153, 0));
         titleAV1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV1.setForeground(new java.awt.Color(255, 255, 204));
         titleAV1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleAV1.setText("Avatar");
         titleAV1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV1.setOpaque(true);
-        getContentPane().add(titleAV1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 70, 40));
+        getContentPane().add(titleAV1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 70, 40));
 
-        titleAV2.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV2.setBackground(new java.awt.Color(0, 153, 255));
         titleAV2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV2.setForeground(new java.awt.Color(255, 255, 204));
         titleAV2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        titleAV2.setText("STRENGH");
+        titleAV2.setText("STRENGTH");
         titleAV2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV2.setOpaque(true);
-        getContentPane().add(titleAV2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 450, 70, 20));
+        getContentPane().add(titleAV2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 450, 70, 20));
 
-        titleAV3.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV3.setBackground(new java.awt.Color(255, 153, 0));
         titleAV3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV3.setForeground(new java.awt.Color(255, 255, 204));
         titleAV3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleAV3.setText("STAMINA");
         titleAV3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV3.setOpaque(true);
-        getContentPane().add(titleAV3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 270, 60, 20));
+        getContentPane().add(titleAV3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 280, 60, 20));
 
-        titleAV4.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV4.setBackground(new java.awt.Color(255, 153, 0));
         titleAV4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV4.setForeground(new java.awt.Color(255, 255, 204));
         titleAV4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleAV4.setText("AGILITY");
         titleAV4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV4.setOpaque(true);
-        getContentPane().add(titleAV4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 290, 60, 20));
+        getContentPane().add(titleAV4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 300, 60, 20));
 
-        titleAV5.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV5.setBackground(new java.awt.Color(255, 153, 0));
         titleAV5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV5.setForeground(new java.awt.Color(255, 255, 204));
         titleAV5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleAV5.setText("SKILLS");
         titleAV5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV5.setOpaque(true);
-        getContentPane().add(titleAV5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 250, 60, 20));
+        getContentPane().add(titleAV5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 260, 60, 20));
 
-        titleAV6.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV6.setBackground(new java.awt.Color(0, 153, 255));
         titleAV6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV6.setForeground(new java.awt.Color(255, 255, 204));
         titleAV6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleAV6.setText("AGILITY");
         titleAV6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV6.setOpaque(true);
-        getContentPane().add(titleAV6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 430, 70, 20));
+        getContentPane().add(titleAV6, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 430, 70, 20));
 
-        titleAV7.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV7.setBackground(new java.awt.Color(0, 153, 255));
         titleAV7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV7.setForeground(new java.awt.Color(255, 255, 204));
         titleAV7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleAV7.setText("SKILLS");
         titleAV7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV7.setOpaque(true);
-        getContentPane().add(titleAV7, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 390, 70, 20));
+        getContentPane().add(titleAV7, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 390, 70, 20));
 
-        titleAV8.setBackground(new java.awt.Color(0, 51, 102));
+        titleAV8.setBackground(new java.awt.Color(0, 153, 255));
         titleAV8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         titleAV8.setForeground(new java.awt.Color(255, 255, 204));
         titleAV8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         titleAV8.setText("STAMINA");
         titleAV8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV8.setOpaque(true);
-        getContentPane().add(titleAV8, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 410, 70, 20));
+        getContentPane().add(titleAV8, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 410, 70, 20));
 
+        valueSkillsAV.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueSkillsAV.setText("0");
-        getContentPane().add(valueSkillsAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 250, -1, -1));
+        getContentPane().add(valueSkillsAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 260, -1, -1));
 
+        valueStaminaAV.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueStaminaAV.setText("0");
-        getContentPane().add(valueStaminaAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 270, -1, -1));
+        getContentPane().add(valueStaminaAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 280, -1, -1));
 
+        valueSkillsUS.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueSkillsUS.setText("0");
-        getContentPane().add(valueSkillsUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 390, -1, -1));
+        getContentPane().add(valueSkillsUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 390, -1, -1));
 
+        valueStrenghAV.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueStrenghAV.setText("0");
-        getContentPane().add(valueStrenghAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 310, -1, -1));
+        getContentPane().add(valueStrenghAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 320, -1, -1));
 
+        valueStaminaUS.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueStaminaUS.setText("0");
-        getContentPane().add(valueStaminaUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 410, -1, -1));
+        getContentPane().add(valueStaminaUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 410, -1, -1));
 
+        valueAgilityUS.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueAgilityUS.setText("0");
-        getContentPane().add(valueAgilityUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 430, -1, -1));
+        getContentPane().add(valueAgilityUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 430, -1, -1));
 
+        valueStrenghUS.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueStrenghUS.setText("0");
-        getContentPane().add(valueStrenghUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 450, -1, -1));
+        getContentPane().add(valueStrenghUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 450, -1, -1));
 
+        valueAgilityAV.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueAgilityAV.setText("0");
-        getContentPane().add(valueAgilityAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 290, -1, -1));
+        getContentPane().add(valueAgilityAV, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, -1, -1));
 
-        fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Foto P2O.png"))); // NOI18N
-        getContentPane().add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, -1, 580));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Foto2POBigger.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -624,10 +623,9 @@ public class Interfaz extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel fondo;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JSlider jSlider1;
     private javax.swing.JLabel lblColaUS1;
-    private javax.swing.JLabel lblColaUS10;
     private javax.swing.JLabel lblColaUS2;
     private javax.swing.JLabel lblColaUS3;
     private javax.swing.JLabel lblColaUS4;
