@@ -5,7 +5,11 @@ import java.util.Random;
 public class Personaje {
     public String id; 
     public int qAmount;
-    public int level; 
+    public int level;
+    public int valueSkills;
+    public int valueStamina;
+    public int valueStrengh;
+    public int valueAgility;
     public boolean skills, stamina, strength, agility;
     public String company; 
     
@@ -39,9 +43,13 @@ public class Personaje {
     public int defineLevel(boolean skills, boolean stamina, boolean strength, boolean agility){
         
         if (skills){qAmount+=5;}
+        if(skills) {valueSkills += 5;}
         if (stamina){qAmount+=4;}
+        if(stamina) {valueStamina += 4;}
         if (strength){qAmount+=3;}
+        if(strength) {valueStrengh += 3;}
         if (agility){qAmount+=3;}
+        if(agility) {valueAgility += 3;}
         
         if (qAmount >= 11){return 1;}
         if (qAmount >=5  && qAmount < 10){return 2;}

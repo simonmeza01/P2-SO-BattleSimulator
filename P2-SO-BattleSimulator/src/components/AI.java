@@ -43,7 +43,7 @@ public class AI extends Thread {
     }
     
     public Personaje ganador(Personaje AV, Personaje US){
-        
+        //Si los qAmount son iguales se define por un random
         if ( AV.qAmount == US.qAmount ){
             if (random()<50){
                 return AV;
@@ -53,6 +53,7 @@ public class AI extends Thread {
         
         Personaje higherQ;
         Personaje lowerQ;
+        //Si el personaje de Avatar tiene mayo qAmount entonces el mayor es Avatar y viceversa
         if (AV.qAmount>US.qAmount){
             higherQ = AV;
             lowerQ = US;
@@ -109,7 +110,7 @@ public class AI extends Thread {
                 this.mutex.acquire();
                 
                 
-                System.out.println("\n Ronda: " + Integer.toString(this.admin.roundsN) + "\nAI -- Selected:   " + pAV.id + "  y  " + pUS.id);
+                System.out.println("\n Ronda: " + Integer.toString(this.admin.roundsN) + "\nAI -- Selected:   " + pAV.id + "nivel:"+ pAV.level+ pAV.qAmount+"  y  " + pUS.id+ "nivel:"+ pUS.level + pUS.qAmount);
                 
                 int resultado = resultado();
                 String resultadoStr;
