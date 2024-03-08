@@ -3,7 +3,8 @@ package components;
 import java.util.Random;
 
 public class Personaje {
-    public String id; 
+    public String id;
+    public String name;
     public int qAmount;
     public int level;
     public int valueSkills;
@@ -12,6 +13,12 @@ public class Personaje {
     public int valueAgility;
     public boolean skills, stamina, strength, agility;
     public String company; 
+    public String characterName;
+
+
+    public String[] personajesAv = {"Aang","Katara","Sokka","Zuko","Iroh","Toph Beifong", "Momo","Appa","Azula", "Ty Lee", "Mai", "Ozai", "Zhao","Jeong", "Piandao", "Bumi","Hama","Pakku","La Princesa Yue","Hahn", "Jet","Long Feng", "Dai Li","Koh el Ladrón de Rostros","Wan Shi Tong"};
+    public String[] personajesUS = {"Mordecai","Rigby","Benson","Skips","Papaleta","Fantasmano", "Musculoso","Margaret","Eileen", "Thomas", "Cj", "Don", "Gene","Señor Maellard", "Skips (Walks)", "Muerte","Thomas","Rigby (Niño)","Mordecai (Niño)","Benson (Niño)", "Skips (Niño)","Fantasmano (Niño)", "Musculoso (Niño)","Maellard (Niño)","El Intendente"};
+
     
     private Personaje next; 
     public int counter; 
@@ -25,7 +32,8 @@ public class Personaje {
         
         this.company = company;
         this.qAmount = 0; 
-        this.counter = counter; 
+        this.counter = counter;
+        this.name = "";
         
         this.id = defineId(company, counter);
         
@@ -58,16 +66,30 @@ public class Personaje {
     
     public String defineId(String company, int counter){
         String id;
+        String[] listToRun;
+        String name = null;
         if(company.equals("Nick")){
             id = "AV";
+            listToRun = this.personajesAv;
+            this.name = listToRun[counter-1];
         }else{
             id = "US";
+            listToRun = this.personajesUS;
+            this.name = listToRun[counter-1];
         }
         
         String num = Integer.toString(counter);
+        
+        
         if (num.length()==1){num=("0"+num);}
         id += num;
+        
+        
+        
+        
         return id;
+        
+        
     }
     
     public Personaje getNext(){

@@ -110,7 +110,7 @@ public class AI extends Thread {
                 this.mutex.acquire();
                 
                 
-                System.out.println("\n Ronda: " + Integer.toString(this.admin.roundsN) + "\nAI -- Selected:   " + pAV.id + "nivel:"+ pAV.level+ pAV.qAmount+"  y  " + pUS.id+ "nivel:"+ pUS.level + pUS.qAmount);
+                System.out.println("\n Ronda: " + Integer.toString(this.admin.roundsN) + "\nAI -- Selected:   " + pAV.id + " "+ pAV.name + "nivel:"+ pAV.level+ pAV.qAmount+"  y  " + pUS.id+ " "+ pUS.name+"nivel:"+ pUS.level + pUS.qAmount);
                 
                 int resultado = resultado();
                 String resultadoStr;
