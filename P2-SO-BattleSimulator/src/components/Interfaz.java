@@ -409,7 +409,7 @@ public class Interfaz extends javax.swing.JFrame {
         titleAV2.setText("STRENGTH");
         titleAV2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV2.setOpaque(true);
-        getContentPane().add(titleAV2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 450, 70, 20));
+        getContentPane().add(titleAV2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 450, 70, 20));
 
         titleAV3.setBackground(new java.awt.Color(255, 153, 0));
         titleAV3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -445,7 +445,7 @@ public class Interfaz extends javax.swing.JFrame {
         titleAV6.setText("AGILITY");
         titleAV6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV6.setOpaque(true);
-        getContentPane().add(titleAV6, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 430, 70, 20));
+        getContentPane().add(titleAV6, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 430, 70, 20));
 
         titleAV7.setBackground(new java.awt.Color(0, 153, 255));
         titleAV7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -454,7 +454,7 @@ public class Interfaz extends javax.swing.JFrame {
         titleAV7.setText("SKILLS");
         titleAV7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV7.setOpaque(true);
-        getContentPane().add(titleAV7, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 390, 70, 20));
+        getContentPane().add(titleAV7, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 390, 70, 20));
 
         titleAV8.setBackground(new java.awt.Color(0, 153, 255));
         titleAV8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -463,7 +463,7 @@ public class Interfaz extends javax.swing.JFrame {
         titleAV8.setText("STAMINA");
         titleAV8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 255), new java.awt.Color(0, 153, 204), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 153, 153)));
         titleAV8.setOpaque(true);
-        getContentPane().add(titleAV8, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 410, 70, 20));
+        getContentPane().add(titleAV8, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 410, 70, 20));
 
         valueSkillsAV.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueSkillsAV.setText("0");
@@ -475,7 +475,7 @@ public class Interfaz extends javax.swing.JFrame {
 
         valueSkillsUS.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueSkillsUS.setText("0");
-        getContentPane().add(valueSkillsUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 390, -1, -1));
+        getContentPane().add(valueSkillsUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 390, -1, -1));
 
         valueStrenghAV.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueStrenghAV.setText("0");
@@ -483,15 +483,15 @@ public class Interfaz extends javax.swing.JFrame {
 
         valueStaminaUS.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueStaminaUS.setText("0");
-        getContentPane().add(valueStaminaUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 410, -1, -1));
+        getContentPane().add(valueStaminaUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 410, -1, -1));
 
         valueAgilityUS.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueAgilityUS.setText("0");
-        getContentPane().add(valueAgilityUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 430, -1, -1));
+        getContentPane().add(valueAgilityUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 430, -1, -1));
 
         valueStrenghUS.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueStrenghUS.setText("0");
-        getContentPane().add(valueStrenghUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 450, -1, -1));
+        getContentPane().add(valueStrenghUS, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 450, -1, -1));
 
         valueAgilityAV.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
         valueAgilityAV.setText("0");

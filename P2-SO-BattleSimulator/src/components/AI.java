@@ -53,7 +53,7 @@ public class AI extends Thread {
         
         Personaje higherQ;
         Personaje lowerQ;
-        //Si el personaje de Avatar tiene mayo qAmount entonces el mayor es Avatar y viceversa
+        //Si el personaje de Avatar tiene mayor qAmount entonces el mayor es Avatar y viceversa
         if (AV.qAmount>US.qAmount){
             higherQ = AV;
             lowerQ = US;
