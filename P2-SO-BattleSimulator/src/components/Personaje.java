@@ -16,8 +16,8 @@ public class Personaje {
     public String characterName;
 
 
-    public String[] personajesAv = {"Aang","Katara","Sokka","Zuko","Iroh","Toph Beifong", "Momo","Appa","Azula", "Ty Lee", "Mai", "Ozai", "Zhao","Jeong", "Piandao", "Bumi","Hama","Pakku","La Princesa Yue","Hahn", "Jet","Long Feng", "Dai Li","Koh el Ladrón de Rostros","Wan Shi Tong"};
-    public String[] personajesUS = {"Mordecai","Rigby","Benson","Skips","Papaleta","Fantasmano", "Musculoso","Margaret","Eileen", "Thomas", "Cj", "Don", "Gene","Señor Maellard", "Skips (Walks)", "Muerte","Thomas","Rigby (Niño)","Mordecai (Niño)","Benson (Niño)", "Skips (Niño)","Fantasmano (Niño)", "Musculoso (Niño)","Maellard (Niño)","El Intendente"};
+    public String[] personajesAv = {"Aang","Katara","Sokka","Zuko","Iroh","Toph Beifong", "Momo","Appa","Azula", "Ty Lee", "Mai", "Ozai", "Zhao","Jeong", "Piandao", "Bumi","Hama","Pakku","La Princesa Yue","Hahn", "Jet","Long Feng", "Dai Li","Koh el Ladrón de Rostros","Wan Shi Tong", "Suki","Tyro", "Roku","Kyoshi","Kuruk","Yangchen","Jianzhu","Ukano","Amon" ,"Tarrlok"};
+    public String[] personajesUS = {"Mordecai","Rigby","Benson","Skips","Papaleta","Fantasmano", "Musculoso","Margaret","Eileen", "Thomas", "Cj", "Don", "Gene","Señor Maellard", "Skips (Walks)", "Muerte","Thomas","Rigby (Niño)","Mordecai (Niño)","Benson (Niño)", "Skips (Niño)","Fantasmano (Niño)", "Musculoso (Niño)","Maellard (Niño)","El Intendente", "Starla", "Frankie", "Eileen (Niña)", "Margaret (Niña)", "CJ (Niña)", "Hector", "Mitch Soreinstein", "Gary", "Benson(Fantasma)", "El Guardian" };
 
     
     private Personaje next; 
